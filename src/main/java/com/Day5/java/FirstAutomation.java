@@ -1,4 +1,4 @@
-package com.learning.JavaSelenium.JavaSelenium;
+package com.Day5.java;
 
 import java.time.Duration;
 
@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class App 
+public class FirstAutomation 
 {
     public static void main( String[] args )
     {

@@ -31,8 +31,8 @@ public class FirstAutomation
 //		driver.quit();
     	
     	
-    	//switchWindows();
-    	classAssigment();
+    	switchWindows();
+    	//classAssigment();
     }
     
     
@@ -40,10 +40,10 @@ public class FirstAutomation
     	WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
-        driver.get("https://tutorialsninja.com/demo/");
-        driver.switchTo().newWindow(WindowType.TAB);
+//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+//        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
+//        driver.get("https://tutorialsninja.com/demo/");
+//        driver.switchTo().newWindow(WindowType.TAB);
         driver.get("https://amazon.com/");
     }
     
